@@ -5,3 +5,4 @@ def my_each(array) do |x| # put argument(s) here
   print x
 end
 
+  my_each
