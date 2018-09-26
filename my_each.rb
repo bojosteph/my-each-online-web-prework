@@ -5,4 +5,7 @@ def my_each(array) do |x| # put argument(s) here
   print x += 1
 end
 
-  my_each { print array.collect 
+  my_each do
+    print array.map
+  end
+end
